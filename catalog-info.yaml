@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "csd-demo"
+  annotations:
+    "humanitec.com/orgId": "bit"
+    "humanitec.com/appId": "csd-demo"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
